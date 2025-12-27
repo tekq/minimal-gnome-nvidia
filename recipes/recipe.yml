@@ -1,6 +1,7 @@
 name: minimal-gnome-nvidia
 description: "Bare-bones GNOME setup with Nvidia drivers"
 base-image: ghcr.io/ublue-os/main-nvidia
+image-version: latest
  
 modules:
   - type: rpm-ostree
@@ -18,7 +19,17 @@ modules:
       - qemu-kvm
       - libvirt
       - just
+
+      - plymouth
+      - plymouth-system-theme-spinner
  
   - type: script
     scripts:
      - setup-gui.sh
+     
+  - type: kernel-parameters
+    arguments:
+     - quiet
+     - splash
+     - rd.driver.pre=nvidia
+     - nvidia-drm.modeset=1
