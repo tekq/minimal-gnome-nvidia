@@ -22,7 +22,17 @@ modules:
 
       - plymouth
       - plymouth-theme-spinner
- 
+    remove:
+      - firefox
+      - firefox-langpacks
+      - gnome-terminal
+      - gnome-terminal-nautilus # Required to let terminal be removed
+      - gnome-tour
+      - htop
+      - nvtop
+      - malcontent
+      - malcontent-control
+      - malcontent-ui
   - type: script
     scripts:
      - setup-gui.sh
