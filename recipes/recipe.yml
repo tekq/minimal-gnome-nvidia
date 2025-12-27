@@ -1,9 +1,13 @@
 name: minimal-gnome-nvidia
 description: "Bare-bones GNOME setup with Nvidia drivers"
-base-image: ghcr.io/ublue-os/main-nvidia
-image-version: 43
+base-image: ghcr.io/ublue-os/main
+image-version: latest
  
 modules:
+  - type: akmods
+    install:
+      - nvidia
+      
   - type: rpm-ostree
     install:
       - gnome-shell
