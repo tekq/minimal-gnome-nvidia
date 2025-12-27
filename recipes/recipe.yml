@@ -33,7 +33,7 @@ modules:
       - nvtop
       - malcontent
       - malcontent-control
-      - malcontent-ui
+      - malcontent-ui-libs
   - type: script
     scripts:
      - setup-gui.sh
