@@ -4,9 +4,9 @@ base-image: ghcr.io/ublue-os/base-main
 image-version: latest
 
 modules:
-  - type: akmods
-    install:
-      - nvidia
+- type: nvidia
+    video-types:
+      - nvidia    
       
   - type: rpm-ostree
     install:
