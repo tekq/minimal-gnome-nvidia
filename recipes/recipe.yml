@@ -1,7 +1,6 @@
 name: minimal-gnome-nvidia
 description: "Bare-bones GNOME setup with Nvidia drivers"
 base-image: ghcr.io/ublue-os/main-nvidia
-image-version: stable-nvidia 
  
 modules:
   - type: rpm-ostree
