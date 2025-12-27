@@ -22,7 +22,9 @@ modules:
 
       - plymouth
       - plymouth-theme-spinner
-    override-remove:
+      
+  - type: rpm-ostree
+    remove:
       - firefox
       - firefox-langpacks
       - gnome-terminal
