@@ -28,7 +28,6 @@ modules:
       - firefox
       - firefox-langpacks
       - gnome-terminal
-      - gnome-terminal-nautilus
       - gnome-tour
       - htop
       - nvtop
