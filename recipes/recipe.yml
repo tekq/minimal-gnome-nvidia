@@ -21,7 +21,7 @@ modules:
       - just
 
       - plymouth
-      - plymouth-system-theme-spinner
+      - plymouth-theme-spinner
  
   - type: script
     scripts:
