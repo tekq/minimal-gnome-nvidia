@@ -22,9 +22,11 @@ modules:
 
       - plymouth
       - plymouth-theme-spinner
-    remove:
+    override-remove:
       - firefox
       - firefox-langpacks
+      - gnome-terminal
+      - gnome-terminal-nautilus
       - gnome-tour
       - htop
       - nvtop
