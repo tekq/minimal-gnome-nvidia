@@ -26,3 +26,10 @@ modules:
   - type: script
     scripts:
      - setup-gui.sh
+
+  - type: kargs
+    kargs:
+      - quiet
+      - splash
+      - rd.driver.pre=nvidia
+      - nvidia-drm.modeset=1
