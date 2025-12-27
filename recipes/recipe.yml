@@ -22,5 +22,4 @@ modules:
  
   - type: script
     scripts:
-     - |-
-       systemctl set-default graphical.target
+     - setup-gui.sh
