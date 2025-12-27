@@ -31,9 +31,6 @@ modules:
       - gnome-tour
       - htop
       - nvtop
-      - malcontent
-      - malcontent-control
-      - malcontent-ui-libs
   - type: script
     scripts:
      - setup-gui.sh
