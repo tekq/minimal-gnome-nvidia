@@ -1,6 +1,6 @@
 name: minimal-gnome-nvidia
 description: "Bare-bones GNOME setup with Nvidia drivers"
-base-image: ghcr.io/ublue-os/main-base
+base-image: ghcr.io/ublue-os/base-main
  
 modules:
   - type: akmods
