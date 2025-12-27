@@ -20,7 +20,7 @@ modules:
       - libvirt
       - just
  
-  - type: systemd
-    user:
-      enabled:
-        - gdm.service
+  - type: script
+    scripts:
+     - |-
+       systemctl set-default graphical.target
