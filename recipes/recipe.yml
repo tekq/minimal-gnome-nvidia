@@ -26,10 +26,3 @@ modules:
   - type: script
     scripts:
      - setup-gui.sh
-     
-  - type: kernel-parameters
-    arguments:
-     - quiet
-     - splash
-     - rd.driver.pre=nvidia
-     - nvidia-drm.modeset=1
