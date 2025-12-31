@@ -9,7 +9,7 @@ modules:
       - gnome-shell
       - gnome-control-center
       - nautilus
-      - gnome-terminal
+      - gnome-console
       - mutter
       - gdm
       - xorg-x11-server-Xwayland
@@ -27,7 +27,6 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - gnome-terminal
       - gnome-tour
       - htop
       - nvtop
