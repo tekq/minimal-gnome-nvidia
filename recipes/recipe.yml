@@ -40,5 +40,3 @@ modules:
       - splash
       - rd.driver.pre=nvidia
       - nvidia-drm.modeset=1
-
-  - type: systemd-boot
